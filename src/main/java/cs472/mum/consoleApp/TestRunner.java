@@ -29,7 +29,7 @@ public class TestRunner {
                 System.out.println("Your score is:  " + quiz.getNumCorrect());
                 System.out.println("Next sequence is:  " + quiz.getCurrentQuestion());
 
-                System.out.println("Enter the answer for the given equation.");
+                System.out.println("Enter the answer for the given equation!");
                 String answer = sc.nextLine();
 
                 boolean error = true;

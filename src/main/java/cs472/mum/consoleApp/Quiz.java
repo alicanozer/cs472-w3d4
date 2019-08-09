@@ -60,4 +60,8 @@ public class Quiz {
         return questions.get(currentQuestionIndex).getQuestion();
     }
 
+    public boolean isOver() {
+        return numberOfQuestions == currentQuestionIndex;
+    }
+
 }
